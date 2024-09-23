@@ -1,0 +1,5 @@
+"nvm -v" - consulta versão do nvm (node version management)
+"npm -v" - consulta versão do npm (node package management)
+"npm install next@versão" - instala a dependencia do next definindo a versão
+"npm install react@versão" - instala a dependencia do react definindo a versão
+"npm install react-dom@versão" - instala a dependencia do react-dom definindo a versão

@@ -1,0 +1,11 @@
+"git status" - exibe o status dos arquivos do projeto (tracked, untracked)
+"git log" - exibe o log de commits feitos e a posição de cada um no repositório local e no origin
+"git log --oneline" - exibe o log de commits feitos porém ocupando apenas uma linha, de forma resumida
+"git add" - adiciona os arquivos na área de staged
+"git commit" - faz um commit com os arquivos selecionados da área de staged
+"git commit -m" - adiciona a mensagem do commit diretamente na linha de comando
+"git commit --amend" reutiliza o commit anterior da máquina local, evitando a necessidade um novo commit (usado para corrigir alguma parte do commit anterior) (caso já tenha sido feito um push, será necessário usar "push --force" porque o git irá acusar erro. Cudiado ao utilizar)
+"git push" - realiza o push do commit com arquivos no repositório local para o repositório origin
+"git push -f ou git push --force" - realiza um push forçado em casos onde exista um conflito entre os commits (por exemplo um uso de --amend para corrigir algum ponto do código enviado anteriormente)
+"git reset --hard <sha1-commit-id>" - aponta o HEAD para outro commit, permitindo a exclusão de um commit enviado erroneamente (Muito cuidado ao utilizar)
+"git push origin HEAD --force" - faz um push do novo commit que foi apontado para o HEAD, excluindo os outros commits que estiverem acima dele (Muito cuidado ao usar)
