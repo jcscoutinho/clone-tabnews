@@ -3,3 +3,4 @@
 "npm install next@versão" - instala a dependencia do next definindo a versão
 "npm install react@versão" - instala a dependencia do react definindo a versão
 "npm install react-dom@versão" - instala a dependencia do react-dom definindo a versão
+"npm install --save-dev jest@29.6.2"
